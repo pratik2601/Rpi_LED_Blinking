@@ -16,9 +16,9 @@ GPIO.output(ledPin, GPIO.LOW)
 #try:
 while 1:
     GPIO.output(ledPin, GPIO.HIGH)
-    time.sleep(0.1)
+    time.sleep(2)
     GPIO.output(ledPin, GPIO.LOW)
-    time.sleep(0.1)
+    time.sleep(2)
 
 #except KeyboardInterrupt:
 #    GPIO.cleanup()
